@@ -16,7 +16,9 @@ public class TestClassObject {
             int shift=gap%8;
             if((check[index]&(1<<shift))==0){
                 break;
+
             }
+            System.out.println(1);
         }
     }
 }
