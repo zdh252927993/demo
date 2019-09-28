@@ -17,6 +17,7 @@ public class TestClassObject {
             if((check[index]&(1<<shift))==0){
                 break;
             }
+            System.out.println(2);
         }
     }
 }
