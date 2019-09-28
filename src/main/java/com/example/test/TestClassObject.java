@@ -15,7 +15,7 @@ public class TestClassObject {
             int index=gap/8;
             int shift=gap%8;
             if((check[index]&(1<<shift))==0){
-
+                break;
             }
         }
     }
